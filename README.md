@@ -1,4 +1,4 @@
-# door-lock
+# Door lock
 ## **Introduction**  
 This project is inspired by the scene in *The Amazing Spider-Man*, where Peter Parker uses a custom lock for his room. That concept gave me the idea to design a smart door lock system, integrating multiple technologies.  
 
