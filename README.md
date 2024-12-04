@@ -22,6 +22,10 @@ The smart lock offers a variety of unlocking options. By incorporating RFID auth
 - Push Button  
 - Jumper Wires 
 
+### **Circuit Diagram**  
+![image](https://github.com/user-attachments/assets/7184c504-508c-4e1a-8a41-bd99377868ae)
+
+
 ---
 
 ## **Software Design**  
