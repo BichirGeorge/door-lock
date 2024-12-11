@@ -7,7 +7,8 @@ The smart lock offers a variety of unlocking options. By incorporating RFID auth
 ---
 
 ## **General Description**  
-![Schema bloz](https://github.com/user-attachments/assets/8d51246c-4dc7-40f1-9782-3692aa602dee)
+![image](https://github.com/user-attachments/assets/83b4a5b7-d232-4fd6-acaa-2fd1f797689b)
+
 
 ---
 
