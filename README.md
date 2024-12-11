@@ -7,6 +7,7 @@ The smart lock offers a variety of unlocking options. By incorporating RFID auth
 ---
 
 ## **General Description**  
+![Schema bloz](https://github.com/user-attachments/assets/8d51246c-4dc7-40f1-9782-3692aa602dee)
 
 ---
 
@@ -18,7 +19,7 @@ The smart lock offers a variety of unlocking options. By incorporating RFID auth
 - MG90S Servo Motor
 - LCD1602 with I2C Interface 
 - DHT22 Sensor  
-- Pasive Buzzer (3.3V)
+- Passive Buzzer (3.3V)
 - Push Button  
 - Jumper Wires 
 
