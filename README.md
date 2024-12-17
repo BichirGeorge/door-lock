@@ -51,6 +51,9 @@ The push button is connected to GPIO 5 for reading its state, with the other pin
 
 The LCD 1602 with I2C interface uses GPIO 21 for SDA (data) and GPIO 22 for SCL (clock). It is powered by 5V and GND.
 
+proof that I did something
+![20241217_213555](https://github.com/user-attachments/assets/f517101d-2c15-462a-a5df-8415220f1075)
+
 ---
 
 ## **Software Design**  
