@@ -7,8 +7,9 @@ The smart lock offers a variety of unlocking options. By incorporating RFID auth
 ---
 
 ## **General Description**  
-![image](https://github.com/user-attachments/assets/83b4a5b7-d232-4fd6-acaa-2fd1f797689b)
 
+### **Block diagram** 
+![image](https://github.com/user-attachments/assets/5473a27d-8957-4b9f-88d8-1ce1f4d13d21)
 
 ---
 
@@ -25,7 +26,8 @@ The smart lock offers a variety of unlocking options. By incorporating RFID auth
 - Jumper Wires 
 
 ### **Circuit Diagram**  
-![image](https://github.com/user-attachments/assets/7184c504-508c-4e1a-8a41-bd99377868ae)
+![image](https://github.com/user-attachments/assets/70a7cc01-8c9b-4025-a7ff-f25d22cb607b)
+
 
 ### **Bill Of Materials**
 | Component             | Source                                                                                                                                                       | Datasheet |
