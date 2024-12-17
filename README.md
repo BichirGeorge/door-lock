@@ -27,8 +27,6 @@ The smart lock offers a variety of unlocking options. By incorporating RFID auth
 ### **Circuit Diagram**  
 ![image](https://github.com/user-attachments/assets/fa638d1b-7151-4399-ab14-fe481dd94a80)
 
-
-
 ### **Bill Of Materials**
 |#|Quantity| Component             | Source                                                                                                                                                       | Datasheet |
 |--|--------| --------------------- |:------------------------------------------------------------------------------------------------------------------------------------------------------------:| ---------:|
@@ -39,6 +37,19 @@ The smart lock offers a variety of unlocking options. By incorporating RFID auth
 |5|1| LCD1602 I2C           | [LCD 1602 cu Interfata I2C si Backlight Albastru](https://www.optimusdigital.ro/ro/optoelectronice-lcd-uri/2894-lcd-cu-interfata-i2c-si-backlight-albastru.html?search_query=lcd+i2c&results=17)|[I2C_1602_LCD.pdf](https://github.com/user-attachments/files/18103080/I2C_1602_LCD.pdf)|
 |6|1| DHT22 Sensor          | [Senzor de Temperatură și Umiditate DHT22/AM2302B](https://www.optimusdigital.ro/ro/senzori-senzori-de-temperatura/3157-senzor-de-temperatura-i-umiditate-dht22am2302b.html?search_query=dht22&results=6)|[DHT22/AM2302.pdf](https://github.com/user-attachments/files/18103083/Digital%2Bhumidity%2Band%2Btemperature%2Bsensor%2BAM2302.pdf)|
 |7|1| Push Button           | [Buton cu Capac Pătrat Negru](https://www.optimusdigital.ro/ro/butoane-i-comutatoare/1117-buton-cu-capac-patrat-negru.html?search_query=buton&results=215)                                  |     -     |
+
+### **Hardware Functionality Description**
+RFID RC522 uses GPIO 4 for SDA, GPIO 15 for RST, GPIO 18 for SCK, GPIO 23 for MOSI, and GPIO 19 for MISO. It is powered by 3.3V and GND.
+
+The keypad 4x4 is connected to GPIO 13, 12, 14, and 27 for the row pins, and GPIO 26, 25, 33, and 32 for the column pins. These pins are used for scanning the keypad matrix.
+
+The DHT22 sensor is connected to GPIO 16 for data, and it is powered by 3.3V and GND.
+
+The servo motor uses GPIO 17 for control through PWM, and it is powered by 5V and GND, i used 5V because the 3.3V output was insufficient to power the servo.
+
+The push button is connected to GPIO 5 for reading its state, with the other pin connected to GND.
+
+The LCD 1602 with I2C interface uses GPIO 21 for SDA (data) and GPIO 22 for SCL (clock). It is powered by 5V and GND.
 
 ---
 
