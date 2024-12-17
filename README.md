@@ -9,7 +9,7 @@ The smart lock offers a variety of unlocking options. By incorporating RFID auth
 ## **General Description**  
 
 ### **Block diagram** 
-![image](https://github.com/user-attachments/assets/5473a27d-8957-4b9f-88d8-1ce1f4d13d21)
+![image](https://github.com/user-attachments/assets/4b978700-277b-4383-a625-a903e852e739)
 
 ---
 
@@ -20,13 +20,13 @@ The smart lock offers a variety of unlocking options. By incorporating RFID auth
 - RC522 RFID Module 
 - MG90S Servo Motor
 - LCD1602 with I2C Interface 
-- DHT22 Sensor  
-- Passive Buzzer (3.3V)
+- DHT22 Sensor
 - Push Button  
 - Jumper Wires 
 
 ### **Circuit Diagram**  
-![image](https://github.com/user-attachments/assets/70a7cc01-8c9b-4025-a7ff-f25d22cb607b)
+![image](https://github.com/user-attachments/assets/fa638d1b-7151-4399-ab14-fe481dd94a80)
+
 
 
 ### **Bill Of Materials**
@@ -38,8 +38,7 @@ The smart lock offers a variety of unlocking options. By incorporating RFID auth
 | MG90S Servo Motor     | [Servomotor MG90S](https://www.optimusdigital.ro/ro/motoare-servomotoare/271-servomotor-mg90s.html?search_query=mg90s&results=1)|[MG90S.pdf](https://github.com/user-attachments/files/18102995/MG90S_Tower-Pro.pdf)|
 | LCD1602 I2C           | [LCD 1602 cu Interfata I2C si Backlight Albastru](https://www.optimusdigital.ro/ro/optoelectronice-lcd-uri/2894-lcd-cu-interfata-i2c-si-backlight-albastru.html?search_query=lcd+i2c&results=17)|[I2C_1602_LCD.pdf](https://github.com/user-attachments/files/18103080/I2C_1602_LCD.pdf)|
 | DHT22 Sensor          | [Senzor de Temperatură și Umiditate DHT22/AM2302B](https://www.optimusdigital.ro/ro/senzori-senzori-de-temperatura/3157-senzor-de-temperatura-i-umiditate-dht22am2302b.html?search_query=dht22&results=6)|[DHT22/AM2302.pdf](https://github.com/user-attachments/files/18103083/Digital%2Bhumidity%2Band%2Btemperature%2Bsensor%2BAM2302.pdf)|
-| Passive Buzzer (3.3V) | [Buzzer Pasiv de 3.3V sau 3V](https://www.optimusdigital.ro/ro/audio-buzzere/12247-buzzer-pasiv-de-33v-sau-3v.html?search_query=buzzer+3&results=62)                                        |           |
-| Push Button           | [Buton cu Capac Pătrat Negru](https://www.optimusdigital.ro/ro/butoane-i-comutatoare/1117-buton-cu-capac-patrat-negru.html?search_query=buton&results=215)                                  |           |
+| Push Button           | [Buton cu Capac Pătrat Negru](https://www.optimusdigital.ro/ro/butoane-i-comutatoare/1117-buton-cu-capac-patrat-negru.html?search_query=buton&results=215)                                  |     -     |
 
 ---
 
@@ -49,7 +48,6 @@ The code is written in the Arduino IDE and includes the following functionalitie
 - RFID Authentication: Reads and verifies card IDs.  
 - Servo Control: Unlocks or locks based on input.  
 - Timeout Handling: Resets the system after inactivity.  
-- Error Feedback: Activates the buzzer.  
 - DHT22 Monitoring: ----.  
 
 ### **Libraries Used**  
