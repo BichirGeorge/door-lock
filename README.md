@@ -39,17 +39,26 @@ The smart lock offers a variety of unlocking options. By incorporating RFID auth
 |7|1| Push Button           | [Buton cu Capac Pătrat Negru](https://www.optimusdigital.ro/ro/butoane-i-comutatoare/1117-buton-cu-capac-patrat-negru.html?search_query=buton&results=215)                                  |     -     |
 
 ### **Hardware Functionality Description**
-RFID RC522 uses GPIO 4 for SDA, GPIO 15 for RST, GPIO 18 for SCK, GPIO 23 for MOSI, and GPIO 19 for MISO. It is powered by 3.3V and GND.
-
-The keypad 4x4 is connected to GPIO 13, 12, 14, and 27 for the row pins, and GPIO 26, 25, 33, and 32 for the column pins. These pins are used for scanning the keypad matrix.
-
-The DHT22 sensor is connected to GPIO 16 for data, and it is powered by 3.3V and GND.
-
-The servo motor uses GPIO 17 for control through PWM, and it is powered by 5V and GND, i used 5V because the 3.3V output was insufficient to power the servo.
-
-The push button is connected to GPIO 5 for reading its state, with the other pin connected to GND.
-
-The LCD 1602 with I2C interface uses GPIO 21 for SDA (data) and GPIO 22 for SCL (clock). It is powered by 5V and GND.
+| **Device**            | **Pin Function**          | **GPIO Pin(s)**             | **Power Supply**     |
+|-----------------------|---------------------------|-----------------------------|----------------------|
+| **RFID RC522**        | SDA (Serial Data)         | GPIO 4                      | 3.3V, GND            |
+|                       | RST (Reset)               | GPIO 15                     | 3.3V, GND            |
+|                       | SCK (Serial Clock)        | GPIO 18                     | 3.3V, GND            |
+|                       | MOSI (Master Out Slave In)| GPIO 23                     | 3.3V, GND            |
+|                       | MISO (Master In Slave Out)| GPIO 19                     | 3.3V, GND            |
+| **4x4 Keypad**        | Row 1                     | GPIO 13                     | 3.3V, GND            |
+|                       | Row 2                     | GPIO 12                     | 3.3V, GND            |
+|                       | Row 3                     | GPIO 14                     | 3.3V, GND            |
+|                       | Row 4                     | GPIO 27                     | 3.3V, GND            |
+|                       | Column 1                  | GPIO 26                     | 3.3V, GND            |
+|                       | Column 2                  | GPIO 25                     | 3.3V, GND            |
+|                       | Column 3                  | GPIO 33                     | 3.3V, GND            |
+|                       | Column 4                  | GPIO 32                     | 3.3V, GND            |
+| **DHT22 Sensor**      | Data                      | GPIO 16                     | 3.3V, GND            |
+| **Servo Motor**       | Control (PWM)             | GPIO 17                     | 5V, GND              |
+| **Push Button**       | State                     | GPIO 5                      | GND                  |
+| **LCD 1602 (I2C)**    | SDA (Data)                | GPIO 21                     | 5V, GND              |
+|                       | SCL (Clock)               | GPIO 22                     | 5V, GND              |
 
 proof that I did something
 ![20241217_213555](https://github.com/user-attachments/assets/f517101d-2c15-462a-a5df-8415220f1075)
