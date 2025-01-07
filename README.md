@@ -60,9 +60,6 @@ The smart lock offers a variety of unlocking options. By incorporating RFID auth
 | **LCD 1602 (I2C)**    | SDA (Data)                | GPIO 21                     | 5V, GND              |
 |                       | SCL (Clock)               | GPIO 22                     | 5V, GND              |
 
-proof that I did something
-![20241217_213555](https://github.com/user-attachments/assets/f517101d-2c15-462a-a5df-8415220f1075)
-
 ---
 
 ## **Software Design**  
@@ -83,10 +80,11 @@ The code is written in the Arduino IDE and includes the following functionalitie
 ---
 
 ## **Results**  
-
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/VQCF18vdndk/0.jpg)](https://www.youtube.com/watch?v=VQCF18vdndk)
 ---
 
 ## **Conclusions**  
+I learned how to integrate RFID, PIN, and sensors with the ESP32, improving my skills in hardware-software interaction and creating a secure system. 
 
 ---
 
