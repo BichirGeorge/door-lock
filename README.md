@@ -89,7 +89,11 @@ I learned how to integrate RFID, PIN, and sensors with the ESP32, improving my s
 ---
 
 ## **Journal**  
+The first issue was with the LCD1602 display. Initially, I connected it to the 3.3V pin on the ESP32, but it didn’t work. After some troubleshooting, I realized that the display actually needed 5V to function properly. Once I provided the correct voltage, the display worked as expected.
+
+The second challenge involved the RFID module. At first, it wouldn’t work at all. I tried everything—double-checking the connections and updating the code. But, after some time, and with no clear explanation, the module suddenly started working as if some magic happened.
 
 ---
 
 ## **Resources**  
+https://esp32io.com/tutorials/esp32-rfid-nfc
