@@ -80,7 +80,7 @@ The code is written in the Arduino IDE and includes the following functionalitie
 ---
 
 ## **Results**  
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/fg7UXB8JGXM/0.jpg)](https://www.youtube.com/watch?v=fg7UXB8JGXM)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/PtcVzH2EXqI/0.jpg)](https://www.youtube.com/watch?v=PtcVzH2EXqI)
 ---
 
 ## **Conclusions**  
