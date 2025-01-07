@@ -98,8 +98,11 @@ The second challenge involved the RFID module. At first, it wouldn’t work at a
 ## **Resources**  
 
 Lab 1 (USART): I utilized the USART for commands and other things.
+
 Lab 3 (PWM): I applied the PWM to control the servo motor for locking and unlocking the door.
+
 Lab 5 (SPI): I used the SPI protocol to communicate with the RFID module.
+
 Lab 6 (I2C): The I2C protocol was used for controlling the LCD1602 display.
 
 https://esp32io.com/tutorials/esp32-rfid-nfc
