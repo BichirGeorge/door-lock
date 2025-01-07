@@ -67,8 +67,8 @@ The code is written in the Arduino IDE and includes the following functionalitie
 - Keypad Input: Detects and validates PIN input.  
 - RFID Authentication: Reads and verifies card IDs.  
 - Servo Control: Unlocks or locks based on input.  
-- Timeout Handling: Resets the system after inactivity.  
 - DHT22 Monitoring: Displays the temperature and opens the door if it gets too hot.
+- Button: A button that can manually open the door when pressed.
 
 ### **Libraries Used**  
 - **Keypad Library** - for keypad input.  
